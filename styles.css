@@ -1,0 +1,66 @@
+#body {
+  background-image: url(images/background1.png);
+}
+
+
+
+#title {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  text-align: center;
+}
+
+
+
+#startButton {
+  font-size: 60px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+  display: block;
+  padding: 15px 18px;
+  margin: auto;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  
+  color: white;
+  background-color: #00c571; /* #0079e7 */
+  border: 1px solid black;
+  border-radius: 10px;
+}
+#startButton:hover {
+  background-color: #00ec87; /* #42a5ff */
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  transform: scale(1.05) perspective(1px);
+}
+#startButton:active {
+  transform: scale(1.1) perspective(1px);
+}
+
+#main2Text {
+  text-align: center;
+  margin-top: 300px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;;
+}
+
+#main1 {
+  position: relative;
+}
+
+#aside {
+  position: absolute;
+  top: 10px;
+  right: 30px;  
+  width: 150px;
+  height: 120px;
+}
+
+#asideTitle {
+  margin: 0px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#asideScores {
+  font: 16px monospace;
+  line-height: 22px;
+}

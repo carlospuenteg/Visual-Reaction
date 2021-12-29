@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+  <title>Keyboard Quickness Test</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Visual Reaction Test">
+  <meta name="keywords" content="Visual,Reaction,Quickness,Test">
+  <meta name="author" content="Carlos Puente González">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="" type="image/png">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script type="text/javascript" src="script.js"></script>
+</head>
+<body id="body" onkeypress="test()" onload="getLocalStorage()">
+<div id="main1">
+  <h1 id="title">Visual Reaction Test</h1>
+  <br><br><br><br><br><br><br><br>
+  <button id="startButton" onclick="start()">START</button>
+  <div id="aside">
+    <h1 id="asideTitle">Top Scores</h1>
+    <h1 id="asideScores"></h1>
+  </div>
+</div>
+<div id="main2">
+  <h1 id="main2Text"></h1>
+</div>
+
+</body>
+</html>
